@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.main img{
+	width: 450px;
+	height: 250px;
+}
+
+.main{
+	display: grid;
+	place-items: center;
+	grid-template-columns: repeat(4, 410px);
+	filter:brightness(0.5) blur(1px);
+}
+
+.signup{
+	width: 400px;
+	height: 650px;
+	background-color: white;
+	border-radius: 20px;
+	position: relative;
+	display: grid;
+	justify-content: center;
+	bottom: 900px;
+	left: 590px;
+}
+
+.logo{
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	background-color: rgb(197, 197, 197);
+	position: relative;
+	top: 40px;
+}
